@@ -3,3 +3,75 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+
+/*  4  */
+
+.footer-section{
+    width: 1440px;
+    margin-top: 93px;
+}
+
+.footer-section .footer-first-block{
+    width: 1440px;
+    height: 188px;
+    position: relative;
+}
+
+
+.footer-section .footer-first-block .first-block-text{
+    position: absolute;
+    left: 206px;
+    top: 78px;
+    z-index: 1;
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.footer-section .footer-first-block .first-block-btn{
+    position: absolute;
+    right: 256px;
+    top: 69px;
+    z-index: 1;
+    width: 150px;
+    height: 50px;
+    background-color: #A82D49;
+    border: none;
+}
+
+.footer-section .footer-first-block .first-block-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-menu{
+    width: 1438px;
+    height: 260px;
+    background-color: #A82D49;
+    position: relative;
+    border: 1px solid #000;
+}
+
+.footer-menu .footer-menu-items {
+    display: flex;
+    position: absolute;
+    top: 78px;
+    left: 594px;
+    color: #fff;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-menu .license{
+    position: absolute;
+    top: 181px;
+    left: 614px;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+
