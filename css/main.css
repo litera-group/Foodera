@@ -10,7 +10,7 @@ body{
 /*section*/
 .cover-1{
     width: 1440px;
-    height: 839px;
+    height: 678px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -206,10 +206,29 @@ body{
 .counter{
     width: 1440px;
     height: 165px;
+    margin: 0 auto;
     background-color: #A82D49;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+}
+.counter .text-top h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.counter .text-top p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
 }
 /*/counter*/
 /*/section*/
