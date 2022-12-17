@@ -3,6 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+<<<<<<< HEAD
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -126,6 +127,158 @@ body{
 /*description*/
 .description-top p {
     margin-top: 26px;
+=======
+
+.container-2{
+    width: 1440px;
+    height: 884px;
+    margin: 0 auto;
+}
+.content{
+    margin: 0 auto;
+}
+.upper-text{
+    margin-left: 343px;
+    margin-right: 343px;    
+    margin-top: 88px;
+}
+.content h1{
+font-family: Quicksand;
+font-weight: 700;
+font-size: 36px;
+line-height: 50px;
+text-align: center;
+}
+.content p{
+    margin-top: 10px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #555555;
+}
+.content-with-images{
+    margin-left: 95px;
+    margin-right: 95px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.section{
+    width: 366px;
+}
+.section h2{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;  
+    color: #43121D; 
+}
+.section h3{
+    margin-top: 20px;
+}
+.section p {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A82D49;  
+}
+.section p em{
+    font-family: Quicksand;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #C4C4C4;
+text-decoration: line-through;
+}
+.price{
+    width: 150px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 170px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+    background-color: #A82D49;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .button img{
+    margin-left: 10px;
+  }
+  .button a{
+    /*margin-top: 25px;
+     */
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     display: inline-block;
+     cursor: pointer;
+     position: relative;
+   }
+  /*animation*/
+.animated-button::before{
+    content: '';
+    border-bottom: 2px solid white;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all 0.5s ease;
+  }
+  .animated-button:hover::before{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+  /*end of animation*/
+  
+
+
+/*3*/
+.frequently_sect{
+    width: 1142px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.h2_title_freq h2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: #43121D;
+    text-align: center;
+    margin-top: 98px;
+}
+
+.paragrfs_content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 78px;
+}
+
+.paragrfs_content_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 21px;
+}
+.part_one b{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #43121D;
+}
+
+.part_one h3{
+>>>>>>> 5e3a0e9d759b83f9b5b5780a7d677dd3b3c1cfea
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -133,6 +286,7 @@ body{
     line-height: 28px;
     color: #555555;
 }
+<<<<<<< HEAD
 /*buttons*/
 .buttons {
     width: 370px;
@@ -234,3 +388,17 @@ body{
 /*/section*/
 
 /*/1*/
+=======
+
+.part_one span{
+    color:#F98169;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+/*3 end*/
+
+>>>>>>> 5e3a0e9d759b83f9b5b5780a7d677dd3b3c1cfea
